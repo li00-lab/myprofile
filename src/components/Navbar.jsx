@@ -41,9 +41,6 @@ export default function Navbar() {
         <Typography variant="h4" sx={{ color: "#00F0FF", fontWeight: "bold" }}>
           Hello
         </Typography>
-        <Typography fontSize="0.75rem" mt={0.5}>
-          Web Developer
-        </Typography>
       </Box>
 
       <Box>
