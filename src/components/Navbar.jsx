@@ -12,10 +12,10 @@ import { Link, useLocation } from "react-router-dom";
 
 const navItems = [
   { label: "About", path: "/" },
-  { label: "My Skills", path: "/skills" },
-  { label: "Work", path: "/work" },
+  { label: "Education", path: "/education" },
+  { label: "Stacks", path: "/stacks" },
+  { label: "Projects", path: "/projects" },
   { label: "Contact", path: "/contact" },
-  { label: "Blog", path: "/blog" },
 ];
 
 export default function Navbar() {

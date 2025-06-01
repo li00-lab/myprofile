@@ -82,7 +82,7 @@ export default function About() {
         </Typography>
       </motion.div>
 
-      <Button
+      {/* <Button
         variant="outlined"
         sx={{
           mt: 4,
@@ -95,7 +95,7 @@ export default function About() {
         }}
       >
         Contact me!
-      </Button>
+      </Button> */}
     </Box>
   );
 }
