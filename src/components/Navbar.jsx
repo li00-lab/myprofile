@@ -12,10 +12,10 @@ import { Link, useLocation } from "react-router-dom";
 
 const navItems = [
   { label: "About", path: "/" },
-  { label: "My Skills", path: "/skills" },
-  { label: "Work", path: "/work" },
+  { label: "Education", path: "/education" },
+  { label: "Stacks", path: "/stacks" },
+  { label: "Projects", path: "/projects" },
   { label: "Contact", path: "/contact" },
-  { label: "Blog", path: "/blog" },
 ];
 
 export default function Navbar() {
@@ -40,9 +40,6 @@ export default function Navbar() {
       <Box>
         <Typography variant="h4" sx={{ color: "#00F0FF", fontWeight: "bold" }}>
           Hello
-        </Typography>
-        <Typography fontSize="0.75rem" mt={0.5}>
-          Web Developer
         </Typography>
       </Box>
 
